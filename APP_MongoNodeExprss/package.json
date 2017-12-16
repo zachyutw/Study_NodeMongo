@@ -1,0 +1,22 @@
+{
+  "name": "app_mongonodeexprss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min' "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "install": "^0.10.2",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.13.6",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
